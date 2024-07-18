@@ -70,4 +70,15 @@ Controllers are annotated with @Controller. They handle the REST API portion.
 - Spring beans are java objects that are managed by the Spring IoC container.
 - To be specific, they are an instance of a class managed by the Spring Container.
 - IoC stands for Inversion of Control, that is, if you have an object which requires another object to function properly, Spring handles the relationships (dependencies) between these objects instead of handling it yourself.
-- The Spring Container also performs dependency injection which means that it ensures that the instances are at the right place and 
+- The Spring Container also performs dependency injection which means that it ensures that the instances are at the right place
+
+Overloading
+- using same method name for different tasks
+- for example, at a coffee shop you order a coffee (method name) but you can specify what type of coffee you want, such as espresso, mocha or latte (parameters)
+- they all are coffee but prepared differently based on your order
+![image](https://github.com/user-attachments/assets/2e2d61a2-53a3-45e4-b01f-b9b13b0af5a4)
+
+
+Overriding
+- when a child class changes a method from its parent class
+- for example, 'Animal' class with 'Speak' method could be overridden by a 'Dog' class that has a 'Woof' method instead
